@@ -16,10 +16,21 @@ print('Hello World!')
 # Simple Operations
 
 Python has the capability of carrying out calculations.
-They are all similar to normal mathematical functions in 
+
+They are all similar to normal mathematical functions.
+
+`+` - Addition 
+`-` - Subtraction 
+`*` - Multiplication
+`/` - Division
+`%` - Modulus
+
 Enter a calculation directly into the print statement:
 
 ```python runnable
-print(2 + 2)
-print(5 + 4 - 3)
+print(2 + 2) # additions
+print(5 - 3) # subtraction
+print(5 * 5) # multiplication
+print(25 / 5) # subtraction
+print(10 % 3) # multiplication
 ```
