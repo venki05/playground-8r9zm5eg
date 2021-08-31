@@ -23,13 +23,11 @@ Python has the capability of carrying out calculations.
 They are all similar to normal mathematical functions.
 
 Some Basic Operators
-|Symbol | Operation |
-|-------|----------|
-|`+` | Addition |
-|`-` | Subtraction |
-|`*` | Multiplication |
-|`/` | Division |
-|`%` | Modulus |
+`+`  Addition
+`-`  Subtraction
+`*`  Multiplication
+`/`  Division
+`%`  Modulus
 
 Enter a calculation directly into the print statement:
 
