@@ -1,4 +1,4 @@
-# Introduction to python
+# Introduction to Python
 
 Python is a high-level programming language, with applications in numerous areas, including web programming, scripting, scientific computing, and artificial intelligence!
 
@@ -19,11 +19,14 @@ Python has the capability of carrying out calculations.
 
 They are all similar to normal mathematical functions.
 
-`+` - Addition 
-`-` - Subtraction 
-`*` - Multiplication
-`/` - Division
-`%` - Modulus
+Some Basic Operators
+|Symbol | Operation |
+|-------|----------|
+|`+` | Addition |
+|`-` | Subtraction |
+|`*` | Multiplication |
+|`/` | Division |
+|`%` | Modulus |
 
 Enter a calculation directly into the print statement:
 
@@ -31,6 +34,39 @@ Enter a calculation directly into the print statement:
 print(2 + 2) # additions
 print(5 - 3) # subtraction
 print(5 * 5) # multiplication
-print(25 / 5) # subtraction
-print(10 % 3) # multiplication
+print(25 / 5) # division
+print(10 % 3) # modulus
+```
+
+# Comments 
+Comments can be used to explain Python code, make the code more readable, prevent execution when testing code.
+
+Comments starts with a #, and Python will ignore them.It can be placed at the end of a line, and Python will ignore the rest of the line. 
+
+```python runnable
+# this is a new line comment
+print("Hi,there") # this is a inline commment
+#print("This print won't work")
+```
+
+Multiline Comments:
+Python does not really have a syntax for multi line comments.
+
+To add a multiline comment you could insert a # for each line:
+
+```python runnable
+# this is 
+# a 
+# multiline comment
+print("Multiline Comment")
+```
+
+Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it. This is called a docstring.
+
+```python runnable
+"""
+    This is called a doctring
+   Treated as a multiline comment
+"""
+print("Docstring")
 ```
