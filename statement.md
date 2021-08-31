@@ -23,6 +23,7 @@ Python has the capability of carrying out calculations.
 They are all similar to normal mathematical functions.
 
 Some Basic Operators
+
 `+`  Addition
 
 `-`  Subtraction
@@ -66,24 +67,14 @@ To add a multiline comment you could insert a # for each line:
 print("Multiline Comment")
 ```
 
-Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it. This is called a docstring.
+## Variables
+
+Variables are used to store information e.g. the variable age can hold the information about your age. You would use it like this: age = 18 . You can output a variable by using a function called print() e.g.: print(age)
 
 ```python runnable
-"""
-    This is called a doctring
-   Treated as a multiline comment
-"""
-print("Docstring")
+age = 18 # change it to your age, if you want 
+print(age)
+
+# to print a variable
 ```
 
-## A Small Test
-
-* why is this not working ??
-  ```python runnable
-   print("Hello World"
-   ```
-
-* What worng with this program ??
-  ```python runnable
-  #print("You have learnt print, operation, comments")
-  ```
