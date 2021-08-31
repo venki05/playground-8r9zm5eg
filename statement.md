@@ -12,3 +12,14 @@ In Python, we use the `print` statement to output text.
 ```python runnable
 print('Hello World!')
 ```
+
+# Simple Operations
+
+Python has the capability of carrying out calculations.
+They are all similar to normal mathematical functions in 
+Enter a calculation directly into the print statement:
+
+```python runnable
+print(2 + 2)
+print(5 + 4 - 3)
+```
