@@ -24,9 +24,13 @@ They are all similar to normal mathematical functions.
 
 Some Basic Operators
 `+`  Addition
+
 `-`  Subtraction
+
 `*`  Multiplication
+
 `/`  Division
+
 `%`  Modulus
 
 Enter a calculation directly into the print statement:
