@@ -1,11 +1,14 @@
-# Welcome!
+# Introduction to python
 
-This Python template lets you get started quickly with a simple one-page playground.
+Python is a high-level programming language, with applications in numerous areas, including web programming, scripting, scientific computing, and artificial intelligence!
+
+It is very popular and used by organizations such as Google, NASA, the CIA, and Disney.
+
+# Printing text
+
+Let's start off by creating a short program that displays "Hello world!".
+In Python, we use the `print` statement to output text.
 
 ```python runnable
 print('Hello World!')
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
