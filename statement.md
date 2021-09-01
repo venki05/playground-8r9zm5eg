@@ -69,7 +69,7 @@ print("Multiline Comment")
 
 ## Variables
 
-Variables are used to store information e.g. the variable age can hold the information about your age. You would use it like this: age = 18 . You can output a variable by using a function called print() e.g.: print(age)
+Variables are used to store information e.g. the variable age can hold the information about your age. You would use it like this: age = 18 . You can output a variable by using a function called print() `e.g.: print(age)`. You can even perform arithematic operation on variables.
 
 ```python runnable
 age = 18 # change it to your age, if you want 
@@ -78,3 +78,23 @@ print(age)
 # to print a variable
 ```
 
+### Basic Datatypes
+
+Python has a numerous types of **Variables**, to store different types of data.
+
+Types  
+`int`    an integer `e.g: -2304, 0, 3, 5, 7`
+`float`  a decimal value (usually only 8 places) `e.g: 454.656, 0.000003, 0.5486`
+`string` Usually considered as anything inside quotes `e.g: "Hello", "1234"`
+`char`   An ASCII/Unicode character `e.g: 'A', '1', '$'`
+
+### Casting
+
+It's really important to have a variable with the correct datatype, before doing something with it.
+To change datatype from one to another is called *casting*.
+
+`int()` To change to int
+`float()` To change to float
+`str()`  To change to string
+`chr()`  To return character related to ASCII/Unicode value
+`ord()`  To return the ASCII/Unicode value of a character
