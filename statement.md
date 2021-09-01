@@ -83,10 +83,13 @@ print(age)
 Python has a numerous types of **Variables**, to store different types of data.
 
 Types  
-`int`    an integer `e.g: -2304, 0, 3, 5, 7`
-`float`  a decimal value (usually only 8 places) `e.g: 454.656, 0.000003, 0.5486`
-`string` Usually considered as anything inside quotes `e.g: "Hello", "1234"`
-`char`   An ASCII/Unicode character `e.g: 'A', '1', '$'`
+`int`    an integer   `e.g: -2304, 0, 3, 5, 7`
+
+`float`  a decimal value (usually only 8 places)   `e.g: 454.656, 0.000003, 0.5486`
+
+`string` Usually considered as anything inside quotes   `e.g: "Hello", "1234"`
+
+`char`   An ASCII/Unicode character   `e.g: 'A', '1', '$'`
 
 ### Casting
 
@@ -94,7 +97,11 @@ It's really important to have a variable with the correct datatype, before doing
 To change datatype from one to another is called *casting*.
 
 `int()` To change to int
+
 `float()` To change to float
+
 `str()`  To change to string
+
 `chr()`  To return character related to ASCII/Unicode value
+
 `ord()`  To return the ASCII/Unicode value of a character
