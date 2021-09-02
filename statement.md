@@ -69,7 +69,9 @@ print("Multiline Comment")
 
 ## Variables
 
-Variables are used to store information e.g. the variable age can hold the information about your age. You would use it like this: age = 18 . You can output a variable by using a function called print() `e.g.: print(age)`. You can even perform arithematic operation on variables.
+Variables are used to store information e.g. the variable age can hold the information about your age. You would use it like this: age = 18. You can even perform arithematic operation on variables. 
+
+Note: In most programming language `=` is an assignment operator , i.e. to assign an value to a variable
 
 ```python runnable
 age = 18 # change it to your age, if you want 
@@ -87,9 +89,10 @@ Types
 
 `float`  a decimal value (usually only 8 places)   `e.g: 454.656, 0.000003, 0.5486`
 
-`string` Usually considered as anything inside quotes   `e.g: "Hello", "1234"`
+`string` Usually considered as anything (numbers, punctuation marks, ASCII/Unicode characters etc.) inside quotes `e.g: "Hello", "1234", "Hello 123! Good Bye. :)"`
 
-`char`   An ASCII/Unicode character   `e.g: 'A', '1', '$'`
+`char`   An ASCII/Unicode character e.g: 'A', '1', '$'
+
 
 ### Casting
 
