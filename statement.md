@@ -108,3 +108,20 @@ To change datatype from one to another is called *casting*.
 `chr()`  To return character related to ASCII/Unicode value
 
 `ord()`  To return the ASCII/Unicode value of a character
+
+## Looping
+
+When some actions are to be repeatedly performed, we use loops. In looping, we usually use conditions for the repetition of the actions i.e.,the set of actions are repeatedly performed until the given condition is satisfied. In python we have 'for' and 'while' loops.
+*Remember to indent your statements.*
+
+### while
+The 'while' loop is an entry controlled loop i.e., The set of actions that are to repeated, repeats itself until the given condition is satisfied.
+**Syntax:** while <condition>:
+                <statements>
+
+### for
+The 'for' loop is a counter controlled loop i.e., The set of actions that are to repeated, repeats itself for a given number of times using a control variable.
+e.g: if we want to print a welcome statement for a certain number of times, then in that case we use 'for' loop.
+**Syntax:** for <control variable> in <sequence>:
+                <statements>
+Another way in which we can use 'for' loop is using the range() function.
