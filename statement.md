@@ -111,17 +111,42 @@ To change datatype from one to another is called *casting*.
 
 ## Looping
 
-When some actions are to be repeatedly performed, we use loops. In looping, we usually use conditions for the repetition of the actions i.e.,the set of actions are repeatedly performed until the given condition is satisfied. In python we have 'for' and 'while' loops.
-*Remember to indent your statements.*
+When some actions are to be repeatedly performed, we use loops. In looping, we usually use conditions for the repetition of the actions i.e.,the set of actions are repeatedly performed until the given condition is satisfied. In python we have `for` and `while` and `do while` loops.
+*Note: Remember to properly indent your statements.*
 
 ### while
-The 'while' loop is an entry controlled loop i.e., The set of actions that are to repeated, repeats itself until the given condition is satisfied.
-**Syntax:** while <condition>:
-                <statements>
+The `while` loop is an entry controlled loop i.e., The set of actions that are to repeated, repeats itself until the given condition is satisfied.
+```
+Syntax: while <condition>:
+              <statements>
+```
 
+To print all numbers for 1 to 100, here is a while loop.
+```python runnable
+i = 1
+while i >= 100:
+  print(i)
+  i = i + 1               
+``` 
+                  
 ### for
-The 'for' loop is a counter controlled loop i.e., The set of actions that are to repeated, repeats itself for a given number of times using a control variable.
-e.g: if we want to print a welcome statement for a certain number of times, then in that case we use 'for' loop.
-**Syntax:** for <control variable> in <sequence>:
-                <statements>
-Another way in which we can use 'for' loop is using the range() function.
+The `for` loop is a counter controlled loop i.e., The set of actions that are to repeated, repeats itself for a given number of times using a control variable.
+
+```
+Syntax: for <control variable> in <sequence>:
+               <statements>
+```
+Simple example of for loop:
+```python runnable
+for day in (Mon, Tue, Wednes, Thurs, Fri, Sat, Sun):
+  print(day+"day") # This is called string concatenation, joining 2 strings
+```
+                
+We use the `range()` function to create a sequence of numbers. `range(start value, stop value, step value)` is the syntax for range function, its will create a sequence from `start value` to `stop value - 1`, incrementing with `step value`.
+
+                
+The above program in for loop:
+```python runnable
+for i in range(1,101): # creates a sequence from 1 to 100
+    print(i)
+```             
